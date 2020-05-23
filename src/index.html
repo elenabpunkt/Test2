@@ -22,36 +22,30 @@
                     class="btn btn-primary"
                     data-toggle="collapse"
                     data-target="#collapseGetraenke"
+                    data-parent="#myGroup"
                     aria-expanded="false"
-                    aria-controls="collapseOne"
+                    aria-controls="collapseGetraenke"
                   >
                     Getränke
                   </button>
                 </h2>
               </div>
-              <div
-                id="collapseGetraenke"
-                class="collapse"
-                aria-labelledby="headingOne"
-              >
+              <div id="collapseGetraenke" class="collapse">
                 <div class="card-header" id="headingOne">
                   <h2 class="mb-0">
                     <button
                       class="btn btn-primary"
                       data-toggle="collapse"
                       data-target="#collapseWeine"
+                      data-parent="#myGroup"
                       aria-expanded="false"
-                      aria-controls="collapseOne"
+                      aria-controls="collapseWeine"
                     >
                       Weine
                     </button>
                   </h2>
                 </div>
-                <div
-                  id="collapseWeine"
-                  class="collapse"
-                  aria-labelledby="headingOne"
-                >
+                <div id="collapseWeine" class="collapse">
                   <div class="card-body">
                     <h4>Trockene und halbtrockene Weißweine</h4>
                     <div class="row">
@@ -406,7 +400,7 @@
                     <div class="row mt-3">
                       <div class="col-8 text-left">
                         <p class="mr-1">13</p>
-                        <p>Kernen Beerenauslese</p>
+                        <p>Kerner Beerenauslese</p>
                       </div>
                       <div class="col-4 text-right">
                         <p>edelsüß</p>
@@ -586,18 +580,15 @@
                       class="btn btn-primary"
                       data-toggle="collapse"
                       data-target="#collapseAlkoholfreies"
+                      data-parent="#myGroup"
                       aria-expanded="false"
-                      aria-controls="collapseOne"
+                      aria-controls="collapseAlkoholfreies"
                     >
                       Alkoholfreies
                     </button>
                   </h2>
                 </div>
-                <div
-                  id="collapseAlkoholfreies"
-                  class="collapse"
-                  aria-labelledby="headingOne"
-                >
+                <div id="collapseAlkoholfreies" class="collapse">
                   <div class="card-body">
                     <div class="row">
                       <div class="col-6 text-left">
@@ -661,91 +652,85 @@
                     id="speisenB"
                     data-toggle="collapse"
                     data-target="#collapseSpeisen"
+                    data-parent="#myGroup"
                     aria-expanded="false"
-                    aria-controls="collapseOne"
+                    aria-controls="collapseSpeisen"
                   >
                     Speisen
                   </button>
                 </h2>
               </div>
-              <div
-                id="collapseSpeisen"
-                class="collapse"
-                aria-labelledby="headingOne"
-              >
+              <div id="collapseSpeisen" class="collapse">
                 <div class="card-header" id="headingOne">
                   <h2 class="mb-0">
                     <button
                       class="btn btn-primary"
                       data-toggle="collapse"
-                      data-target="#collapseThree"
+                      data-target="#collapseVorspeisen"
+                      data-parent="#myGroup"
                       aria-expanded="false"
-                      aria-controls="collapseOne"
+                      aria-controls="collapseThree"
                     >
                       Vorspeisen
                     </button>
                   </h2>
                 </div>
-                <div
-                  id="collapseThree"
-                  class="collapse"
-                  aria-labelledby="headingOne"
-                >
+                <div id="collapseVorspeisen" class="collapse">
                   <div class="card-body">
                     <h4>Kleinigkeiten</h4>
                     <div class="row">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Spundekäs mit Brezelchen
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         4,50
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Schmalzbrot
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         3,50
                       </div>
                     </div>
                     <br />
                     <h4>Kaltes & Warmes</h4>
                     <div class="row">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Handkästartar
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         5,50
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Gebackener Ziegenkäse
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         6,50
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         im Schinkenmantel mit Feigensenf
                       </div>
-                      <div class="col-3 text-right"></div>
+                      <div class="col-4 text-right"></div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Ziegenkäse
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         6,50
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         mit Kräutervinaigrett
                       </div>
-                      <div class="col-3 text-right"></div>
+                      <div class="col-4 text-right"></div>
                     </div>
                   </div>
                 </div>
@@ -754,142 +739,139 @@
                     <button
                       class="btn btn-primary"
                       data-toggle="collapse"
-                      data-target="#collapseHauptspeisen"
+                      href="#collapseHauptspeisen"
+                      data-parent="#myGroup"
                       aria-expanded="false"
-                      aria-controls="collapseOne"
+                      aria-controls="collapseHauptspeisen"
                     >
                       Hauptspeisen
                     </button>
                   </h2>
                 </div>
-                <div
-                  id="collapseHauptspeisen"
-                  class="collapse"
-                  aria-labelledby="headingOne"
-                >
+                <div id="collapseHauptspeisen" class="collapse">
                   <div class="card-body">
                     <h4>Kaltes</h4>
                     <div class="row">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Winzerplatte
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         8,10
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         große Winzerplatte
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         12,00
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Käseplatte
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         8,10
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         große Käseplatte
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         12,00
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Winstange belegt mit Schinken, Käse, Ei und Salat
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         4,00
                       </div>
                     </div>
                     <br />
                     <h4>Deftiges</h4>
                     <div class="row">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Paniertes Schnitzel
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         8,10
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         mit frischer Champingonsoße
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         9,10
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
-                        Schweinenackensteak
+                      <div class="col-8 text-left">
+                        Nackensteak
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         7,00
                       </div>
                     </div>
                     <br />
                     <h4>Vegetarisches</h4>
                     <div class="row">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Ofenkartoffel mit mediteranem Gemüse
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         7,60
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Käsespätzle
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         7,50
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Maccoroni
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         7,50
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         mit markfrischem Gemüse
                       </div>
-                      <div class="col-3 text-right"></div>
+                      <div class="col-4 text-right"></div>
                     </div>
                     <br />
                     <h4>Beilagen</h4>
                     <div class="row">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Bratkartoffeln
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         3,10
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Spätzle
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         3,60
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Gemischter Salat
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         3,30
                       </div>
                     </div>
@@ -901,48 +883,45 @@
                       class="btn btn-primary"
                       data-toggle="collapse"
                       data-target="#collapseNachspeisen"
+                      data-parent="#myGroup"
                       aria-expanded="false"
-                      aria-controls="collapseOne"
+                      aria-controls="collapseNachspeisen"
                     >
                       Dessert
                     </button>
                   </h2>
                 </div>
-                <div
-                  id="collapseNachspeisen"
-                  class="collapse"
-                  aria-labelledby="headingOne"
-                >
+                <div id="collapseNachspeisen" class="collapse">
                   <div class="card-body">
                     <div class="row">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Arme Ritter
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         5,10
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Gemischtes Eis
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         3,00
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Rote Grütze mit Vanilleeis
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         3,00
                       </div>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-9 text-left">
+                      <div class="col-8 text-left">
                         Rote Grütze mit Vanillesoße
                       </div>
-                      <div class="col-3 text-right">
+                      <div class="col-4 text-right">
                         3,00
                       </div>
                     </div>
@@ -961,21 +940,18 @@
                     class="btn btn-primary"
                     data-toggle="collapse"
                     data-target="#collapseInfo"
+                    data-parent="#myGroup"
                     aria-expanded="false"
-                    aria-controls="collapseOne"
+                    aria-controls="collapseInfo"
                   >
                     Infos zu Corona-Maßnahmen
                   </button>
                 </h2>
               </div>
-              <div
-                id="collapseInfo"
-                class="collapse text-left"
-                aria-labelledby="headingOne"
-              >
+              <div id="collapseInfo" class="collapse text-left">
                 <ul>
                   <li>
-                    Bitte halten sie zu anderen Menschen mindestens 1,5m
+                    Bitte halten Sie zu anderen Menschen mindestens 1,5m
                     Abstand.
                   </li>
                   <li>
