@@ -57,3 +57,37 @@ body {
 p {
   display: inline;
 }
+
+.Home {
+  color: $gold;
+}
+
+.impressum {
+  color: $gold;
+}
+
+.kontakt {
+  color: $gold;
+}
+
+a:visited {
+  color: $gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: $green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer {
+  color: lightgray;
+}
