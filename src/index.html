@@ -1,11 +1,305 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Hello World</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speisekarte</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <!-- <img class="pictureTitle" src="assets/Logo.jpeg" /> -->
+        </div>
+        <div class="col-12 mb-3">
+          <h2 class="welcome mt-3">Willkommen in der Lörzweiler Woistubb</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="card border-danger mb-3">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-primary"
+                  data-toggle="collapse"
+                  data-target="#collapseGetraenke"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  Getränke
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseGetraenke"
+              class="collapse"
+              aria-labelledby="headingOne"
+            >
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-primary"
+                    data-toggle="collapse"
+                    data-target="#collapseWeine"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    Weine
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseWeine"
+                class="collapse"
+                aria-labelledby="headingOne"
+              >
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6 text-left">
+                      <p class="mr-2">1</p>
+                    </div>
+                    <div class="col-3 text-right">
+                      <p>0,2l</p>
+                    </div>
+                    <div class="col-3 text-right">
+                      <p>0,75l</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 text-left">
+                      <p class="mr-2">Silvaner</p>
+                    </div>
+                    <div class="col-3 text-right">
+                      <p>2,70</p>
+                    </div>
+                    <div class="col-3 text-right">
+                      <p>8,70</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6 text-left">
+                      <p class="mr-2">5</p>
+                    </div>
+                    <div class="col-3 text-right">
+                      <p>0,2l</p>
+                    </div>
+                    <div class="col-3 text-right">
+                      <p>0,75l</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 text-left">
+                      <p class="mr-2">Theo</p>
+                    </div>
+                    <div class="col-3 text-right">
+                      <p>2,70</p>
+                    </div>
+                    <div class="col-3 text-right">
+                      <p>8,70</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-primary"
+                    data-toggle="collapse"
+                    data-target="#collapseAlkoholfreies"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    Alkoholfreies
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseAlkoholfreies"
+                class="collapse"
+                aria-labelledby="headingOne"
+              >
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4 text-left">
+                      <p class="ml-2">Traubensaftschorle</p>
+                    </div>
+                    <div class="col-4 text-right">
+                      <p class="mr-2">0,2l</p>
+                      <p class="ml-2">1,70€</p>
+                    </div>
+                    <div class="col-4 text-right">
+                      <p class="mr-2">0,4l</p>
+                      <p class="ml-2">2,70€</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-4 text-left">
+                      <p class="ml-2">Cola, Fanta, Sprite</p>
+                    </div>
+                    <div class="col-4 text-right">
+                      <p class="mr-2">0,2l</p>
+                      <p class="ml-2">1,70€</p>
+                    </div>
+                    <div class="col-4 text-right">
+                      <p class="mr-2">0,4l</p>
+                      <p class="ml-2">2,50€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-danger mb-3">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button
+              class="btn btn-primary"
+              data-toggle="collapse"
+              data-target="#collapseSpeisen"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              Speisen
+            </button>
+          </h2>
+        </div>
+        <div id="collapseSpeisen" class="collapse" aria-labelledby="headingOne">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-primary"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Vorspeisen
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingOne">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-9 text-left">
+                  Spundekäs
+                </div>
+                <div class="col-3 text-right">
+                  4,50 €
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-primary"
+                data-toggle="collapse"
+                data-target="#collapseHauptspeisen"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Hauptspeisen
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseHauptspeisen"
+            class="collapse"
+            aria-labelledby="headingOne"
+          >
+            <div class="card-body">
+              <h4>Deftiges</h4>
+              <div class="row">
+                <div class="col-9 text-left">
+                  Schnitzel
+                </div>
+                <div class="col-3 text-right">
+                  8,10 €
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-9 text-left">
+                  Schweinenackensteak
+                </div>
+                <div class="col-3 text-right">
+                  7,00 €
+                </div>
+              </div>
+              <br />
+              <h4>Vegetarisches</h4>
+              <div class="row">
+                <div class="col-9 text-left">
+                  Ofenkartoffel mit mediteranem Gemüse
+                </div>
+                <div class="col-3 text-right">
+                  7,60 €
+                </div>
+              </div>
+              <br />
+              <h4>Beilagen</h4>
+              <div class="row">
+                <div class="col-9 text-left">
+                  Bratkartoffeln
+                </div>
+                <div class="col-3 text-right">
+                  3,10 €
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-primary"
+                data-toggle="collapse"
+                data-target="#collapseNachspeisen"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Dessert
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseNachspeisen"
+            class="collapse"
+            aria-labelledby="headingOne"
+          >
+            <div class="card-body">
+              Armer Ritter 5.00 € <br />
+              gemischtes Eis 2.90 €
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-danger mb-3">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button
+              class="btn btn-primary"
+              data-toggle="collapse"
+              data-target="#collapseInfo"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              Infos zu den Corona Maßnahmen
+            </button>
+          </h2>
+        </div>
+        <div id="collapseInfo" class="collapse" aria-labelledby="headingOne">
+          Infos zu den Corona-Maßnahmen
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer class="mt-5">
+    Impressum
+  </footer>
 </html>
