@@ -93,6 +93,15 @@ footer {
   color: lightgray;
 }
 
-// #speisenB {
-//   color: $gold;
+// .boltTitle {
+//   font-weight: bold;
 // }
+
+.underLying {
+  font-size: smaller;
+}
+
+.mycard-body {
+  border: solid 0.1rem;
+  border-color: $gold;
+}
